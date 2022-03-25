@@ -1,0 +1,23 @@
+.navbarContainer {
+  background-color: #79B4B7;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.navbarContainer ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 12px;
+
+
+}
+
+.navbarContainer li a {
+    font-size: 1.5vw;
+  color: white;
+  text-decoration: none;
+  
+}

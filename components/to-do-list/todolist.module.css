@@ -1,0 +1,39 @@
+.todolist {
+  /* background-color: #f8f0df; */
+  height: 80vh;
+  width: 90vw;
+}
+
+.todolist ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.inputAreaContainer {
+  /* background-color: #f8f0df; */
+  display: flex;
+ justify-content: center;
+  gap: 40px;
+
+}
+
+.inputAreaForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20vw;
+  height: 20vh;
+  gap: 20px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  margin: 20px;
+  padding: 20px;
+}
+
+.inputAreaButton {
+  width: 3vw;
+  height: 3vh;
+}
